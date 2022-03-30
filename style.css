@@ -1,0 +1,459 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #667db6;
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  );
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  height: 60px;
+  margin-top: 10%;
+}
+
+.admin-nav-link:hover {
+  color: rgba(255, 255, 255, 0.466) !important;
+}
+
+.nav-link-main {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  height: 60px;
+  margin-top: 10%;
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 0, 0.753);
+}
+
+.active {
+  padding-top: 9.5%;
+}
+
+.active-two {
+  padding-top: 0.5%;
+}
+
+.nav-main {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-hotels {
+  justify-content: center;
+  height: 100%;
+  margin: 0px auto;
+}
+
+.main-hotels .hotel-display {
+  margin: 0px auto;
+  width: 1400px;
+  height: 100%;
+  padding: 5%;
+}
+
+article {
+  height: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+  background-color: rgba(255, 255, 255, 0.712);
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+
+.left {
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("./assets/images/gallery.png");
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.89);
+  user-select: none;
+}
+
+.right {
+  color: black;
+  width: 90%;
+  font-size: 20px;
+  padding-top: 3%;
+}
+
+.date {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.right .hotel-about {
+  height: 220px;
+  width: 100%;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  border: none;
+  outline: none;
+  overflow-y: auto;
+}
+
+.right .hotel-location {
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-top: 1px solid rgba(0, 0, 0, 0.281);
+  margin-top: 2%;
+}
+
+.right .book-apartment {
+  display: flex;
+}
+
+.right .book-apartment button {
+  margin-left: 1%;
+}
+
+.main-hotels .hotel-display .right button {
+  float: right;
+}
+
+.navigation {
+  width: 700px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -350px;
+  background-color: rgba(0, 0, 0, 0.842);
+  position: fixed;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+.payment {
+  width: 750px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -350px;
+  background: black;
+  border: 5px solid white;
+  position: fixed;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(7, 133, 201, 0.377);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(7, 133, 201, 0.582);
+}
+
+.signin {
+  margin: 0px auto;
+  margin-top: 12%;
+  width: 50%;
+}
+.main-hotel-create {
+  margin: 0px auto;
+  margin-top: 2%;
+  width: 70%;
+  margin-bottom: 8%;
+}
+
+.form-signin {
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 5%;
+  padding-bottom: 7%;
+  border-radius: 15px;
+}
+
+.signin .form-floating {
+  margin-bottom: 1%;
+}
+
+.input-group {
+  margin-bottom: 1%;
+  height: 60px;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-image: url("./assets/images/manuel-moreno-DGa0LQ0yDPc-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+footer {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  border: 3px solid #ffffff;
+  padding: 5px;
+}
+
+.go-up {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.go-up:hover {
+  color: rgb(154, 218, 255);
+}
+
+.form-control {
+  margin-bottom: 1%;
+  height: 50px;
+  font-size: 18px;
+}
+
+#imageInput {
+  height: 40px;
+}
+
+.hotel-create {
+  display: grid;
+  row-gap: 10%;
+}
+
+.book-apartment {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loading-screen {
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  );
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.loader {
+  border: 16px solid #ffffff;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.preview-buttons {
+  margin-top: 1%;
+}
+
+.admin {
+  width: 100%;
+  height: 100%;
+}
+
+.table-dark {
+  width: 45%;
+  margin: 0px auto;
+  margin-top: 5%;
+  border-radius: 15px !important;
+  border: 5px solid black;
+  margin-bottom: 5%;
+}
+
+.stars {
+  margin-top: 3%;
+}
+
+.main-apartments {
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.apartment-display {
+  display: grid;
+  row-gap: 40px;
+  column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.checkboxes {
+  display: flex;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.price {
+  height: 45px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+}
+
+#apartmentAbout {
+  overflow-y: auto;
+  height: 220px;
+}
+
+.preview-right {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px !important;
+}
+
+.payInfo {
+  display: grid;
+  row-gap: 1.5%;
+  margin: 0px auto;
+  margin-top: 6%;
+  width: 95%;
+}
+
+.firstname-lastname {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name-name {
+  width: 40%;
+}
+
+.name-name2 {
+  width: 40%;
+  margin-left: 1.5%;
+}
+
+.form-select-lg {
+  font-size: 18px;
+}
+
+.book {
+  margin-left: 80%;
+  width: 20%;
+  height: 45px;
+  border: 3px solid white;
+}
+
+.apartments-admin-color {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.apartment-td {
+  text-align: center;
+}
+
+.h1-no-display {
+  position: fixed;
+  padding: 10px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+  text-align: center;
+}
+
+.rating-css div {
+  color: rgb(1, 176, 241);
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  margin-top: -2%;
+}
+.rating-css input {
+  display: none;
+}
+.rating-css input + label {
+  font-size: 27px;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  color: white;
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+.rating-css-display {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  margin-top: -2%;
+}
+.rating-css-display input + label {
+  font-size: 27px;
+  cursor: pointer;
+}
+.rating-css-display input {
+  display: none;
+}
+.checked {
+  color: rgb(1, 176, 241);
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.location {
+  margin-bottom: 3%;
+}
+
+.star-icon {
+  display: flex;
+  justify-content: flex-start;
+}
