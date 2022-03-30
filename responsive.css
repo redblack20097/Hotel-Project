@@ -1,3 +1,4 @@
+/* responsivis damatebas ar vapirebdi da axla htmlis struqturis gamo bevri responsivis dawera gamovida */
 @media screen and (max-width: 1440px) {
   .main-hotels .hotel-display {
     width: 1200px;
@@ -300,5 +301,44 @@
 @media screen and (max-width: 364px) {
   .navigation {
     left: 113%;
+  }
+}
+
+@media screen and (max-width: 1358px) {
+  .signin {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 907px) {
+  .signin {
+    width: 98%;
+  }
+  .form-signin {
+    padding: 2%;
+    padding-bottom: 9%;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .form-signin {
+    padding-bottom: 12%;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .form-signin {
+    padding-bottom: 12%;
+    margin-top: 20%;
+    border-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .form-signin {
+    padding-bottom: 16%;
+    margin-top: 30%;
+    padding-top: 2%;
+    border-radius: 0px;
   }
 }
